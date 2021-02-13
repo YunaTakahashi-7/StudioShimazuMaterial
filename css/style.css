@@ -1,0 +1,62 @@
+.title{
+  background-color: rgb(183, 230, 56);
+  text-align: center;
+  color: brown;
+  font-size: 10px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+header h1{
+  margin: 0;
+  /* width: 60%; */
+}
+
+/* .title img{
+  width: 280px;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 40%;
+} */
+
+.window{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main .info{
+  text-align: center;
+}
+
+.resouces .pictures {
+  /* list-style: none; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.resouces img {
+  width: 160px;
+}
+
+.footer{
+  padding: 5% 0;
+  background: #4e454a;
+  color: #98969c;
+  text-align: center;
+}
+
+@media (min-width: 900px){
+  .title{
+    text-align: left;
+
+  }
+  
+  .window{
+    text-align: left;
+  }
+
+  .main .info{
+    text-align: left;
+  } 
+}
